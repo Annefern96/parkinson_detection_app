@@ -71,3 +71,33 @@ Saved to: logs/user_sessions.csv
 📌 Ethical Considerations
 
 This app uses voice biomarkers for educational purposes and is not a certified diagnostic tool. It does not include demographic attributes (e.g., age, gender, ethnicity), and fairness audits are not applicable. Future versions may include real-time audio input and continuous monitoring features.
+
+## How to Run Locally
+
+### 1. Open the Project Folder
+Make sure the project folder (e.g., `parkinson_detection_app`) is saved on your computer.
+
+- **Windows:** Right-click inside the folder → **Open in Terminal** or **Open PowerShell window here**  
+- **macOS/Linux:** Open Terminal and navigate to your folder:
+```bash
+cd ~/Documents/parkinson_detection_app
+
+### 2. Create virtual Environment
+
+python -m venv venv
+
+ 
+.\venv\Scripts\activate (for windows)
+
+source venv/bin/activate(for macOS)
+
+
+### 3. Install Dependencies
+
+Make sure requirements.txt is in the project folder:
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+✅ Your app should now open in your browser!
