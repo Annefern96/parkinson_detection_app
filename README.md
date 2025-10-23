@@ -1,36 +1,36 @@
-🧠 Parkinson Detection App
+**🧠 Parkinson Detection App**
 
 An AI-powered Streamlit application that analyzes voice biomarkers to detect early signs of Parkinson’s disease. Built with XGBoost, SHAP for explainability, and MLflow for experiment tracking. Designed for educational and prototyping purposes, with future potential for real-time monitoring.
 
-🚀 Features
+**🚀 Features**
 
-Upload .csv files containing voice biomarker data
+* Upload .csv files containing voice biomarker data
 
-Predict Parkinson’s status with confidence scores
+* Predict Parkinson’s status with confidence scores
 
-Visualize feature importance using SHAP (XAI)
+* Visualize feature importance using SHAP (XAI)
 
-Log user sessions anonymously for traceability
+* Log user sessions anonymously for traceability
 
-Track model metrics and artifacts with MLflow
+* Track model metrics and artifacts with MLflow
 
-🧪 Technologies Used
+  
 
-Programming: Python
+**🧪 Technologies Used**
+* Programming: Python
 
-ML Models: XGBoost
+* ML Models: XGBoost
 
-Explainability: SHAP
+* Explainability: SHAP
 
-MLOps: MLflow
+* MLOps: MLflow
 
-Web App: Streamlit
+* Web App: Streamlit
 
-Utilities: Pandas, NumPy, Scikit-learn, Joblib
+* Utilities: Pandas, NumPy, Scikit-learn, Joblib
 
-# parkinsons_project/
 
-📊 Input Format
+**📊 Input Format**
 
 Upload a .csv file with the following columns (excluding name):
 
@@ -39,32 +39,34 @@ Jitter(%), Shimmer(dB), HNR
 RPDE, DFA, spread1, spread2, D2, PPE
 status (0 = healthy, 1 = Parkinson’s)
 
-Sample dataset: UCI Parkinson’s Data
+**Sample dataset: UCI Parkinson’s Data**
 
-🧠 Explainable AI (XAI)
 
-Global Explanation: SHAP summary plot shows which features most influence predictions.
+**🧠 Explainable AI (XAI)**
 
-Individual Prediction: SHAP waterfall plot explains why a specific prediction was made.
+* Global Explanation: SHAP summary plot shows which features most influence predictions.
 
-🔄 Reliability Features
+* Individual Prediction: SHAP waterfall plot explains why a specific prediction was made.
 
-Confidence scores displayed for each prediction
+**🔄 Reliability Features**
 
-Accuracy and classification metrics logged via MLflow
+* Confidence scores displayed for each prediction
 
-Optional calibration methods available for future extension
+* Accuracy and classification metrics logged via MLflow
 
-🧾 Session Logging
+* Optional calibration methods available for future extension
+
+**🧾 Session Logging**
+
 Each user session is tracked anonymously using a unique ID. Logged data includes:
 
-Timestamp
+* Timestamp
+ 
+* Uploaded file name
 
-Uploaded file name
+* Prediction result
 
-Prediction result
-
-Confidence score
+* Confidence score
 
 Saved to: logs/user_sessions.csv
 
@@ -74,7 +76,7 @@ This app uses voice biomarkers for educational purposes and is not a certified d
 
 ## How to Run Locally
 
-### 1. Open the Project Folder
+###  Open the Project Folder
 Make sure the project folder (e.g., `parkinson_detection_app`) is saved on your computer.
 
 - **Windows:** Right-click inside the folder → **Open in Terminal** or **Open PowerShell window here**  
@@ -88,6 +90,8 @@ python -m venv venv
 
  
 .\venv\Scripts\activate (for windows)
+
+        or
 
 source venv/bin/activate(for macOS)
 
