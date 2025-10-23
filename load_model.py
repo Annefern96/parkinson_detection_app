@@ -1,4 +1,6 @@
+import os
 import pickle
 
-with open(r'C:\Users\asus\Downloads\04morning\model\xgb_model.pkl', 'rb') as f:
+model_path = os.path.join("model", "xgb_model.pkl")
+with open(model_path, "rb") as f:
     model = pickle.load(f)
