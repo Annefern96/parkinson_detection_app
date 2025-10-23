@@ -28,28 +28,7 @@ Web App: Streamlit
 
 Utilities: Pandas, NumPy, Scikit-learn, Joblib
 
-parkinsons_project/
-
-├── app/
-
-│   └── app.py  
-# Streamlit app
-
-├── model/
-
-│   ├── xgboost_model.pkl 
-# Trained model
-
-│   └── scaler.pkl              # Scaler for input features
-├── logs/
-│   └── user_sessions.csv       # Session logs
-├── utils/
-│   ├── preprocess.py           # Data loading & scaling
-│   └── xai.py                  # SHAP explanation functions
-├── mlops/
-│   └── train.py                # MLflow training pipeline
-├── requirements.txt
-└── README.md
+# parkinsons_project/
 
 📊 Input Format
 
