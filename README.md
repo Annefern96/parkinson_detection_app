@@ -29,10 +29,17 @@ Web App: Streamlit
 Utilities: Pandas, NumPy, Scikit-learn, Joblib
 
 parkinsons_project/
+
 ├── app/
-│   └── app.py                  # Streamlit app
+
+│   └── app.py  
+# Streamlit app
+
 ├── model/
-│   ├── xgboost_model.pkl       # Trained model
+
+│   ├── xgboost_model.pkl 
+# Trained model
+
 │   └── scaler.pkl              # Scaler for input features
 ├── logs/
 │   └── user_sessions.csv       # Session logs
@@ -45,30 +52,43 @@ parkinsons_project/
 └── README.md
 
 📊 Input Format
+
 Upload a .csv file with the following columns (excluding name):
+
 MDVP:Fo(Hz), MDVP:Fhi(Hz), MDVP:Flo(Hz)
 Jitter(%), Shimmer(dB), HNR
 RPDE, DFA, spread1, spread2, D2, PPE
 status (0 = healthy, 1 = Parkinson’s)
+
 Sample dataset: UCI Parkinson’s Data
 
 🧠 Explainable AI (XAI)
+
 Global Explanation: SHAP summary plot shows which features most influence predictions.
+
 Individual Prediction: SHAP waterfall plot explains why a specific prediction was made.
 
 🔄 Reliability Features
+
 Confidence scores displayed for each prediction
+
 Accuracy and classification metrics logged via MLflow
+
 Optional calibration methods available for future extension
 
 🧾 Session Logging
 Each user session is tracked anonymously using a unique ID. Logged data includes:
+
 Timestamp
+
 Uploaded file name
+
 Prediction result
+
 Confidence score
 
 Saved to: logs/user_sessions.csv
 
 📌 Ethical Considerations
+
 This app uses voice biomarkers for educational purposes and is not a certified diagnostic tool. It does not include demographic attributes (e.g., age, gender, ethnicity), and fairness audits are not applicable. Future versions may include real-time audio input and continuous monitoring features.
