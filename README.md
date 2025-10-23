@@ -1,19 +1,31 @@
 🧠 Parkinson Detection App
+
 An AI-powered Streamlit application that analyzes voice biomarkers to detect early signs of Parkinson’s disease. Built with XGBoost, SHAP for explainability, and MLflow for experiment tracking. Designed for educational and prototyping purposes, with future potential for real-time monitoring.
 
 🚀 Features
+
 Upload .csv files containing voice biomarker data
+
 Predict Parkinson’s status with confidence scores
+
 Visualize feature importance using SHAP (XAI)
+
 Log user sessions anonymously for traceability
+
 Track model metrics and artifacts with MLflow
 
 🧪 Technologies Used
+
 Programming: Python
+
 ML Models: XGBoost
+
 Explainability: SHAP
+
 MLOps: MLflow
+
 Web App: Streamlit
+
 Utilities: Pandas, NumPy, Scikit-learn, Joblib
 
 parkinsons_project/
