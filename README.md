@@ -1,11 +1,10 @@
 
 # Parkinson Detection App — Advanced README                                                                                                                    
-**AI-powered Streamlit prototype** for detecting early signs of Parkinson’s disease from voice biomarkers. Built for education and prototyping. Not for clinical use.
-
+**AI-powered Streamlit prototype** for detecting early signs of Parkinson’s disease from voice biomarkers. Built for education and prototyping.
 ## Project overview
 A Streamlit app that ingests tabular voice biomarkers and predicts Parkinson’s disease status using an XGBoost classifier. The app includes local explainability with SHAP, experiment tracking with MLflow, anonymous session logging for traceability, and modular code for easy extension into real-time audio pipelines.
 
-This repository is intended for research, education, and prototyping. Not for clinical use.
+This repository is intended for research, education, and prototyping. **Not** for clinical use.
 
 ## Key features
 
