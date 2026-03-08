@@ -1,6 +1,11 @@
 
-# Parkinson Detection App — Advanced README                                                                                                                    
+# Parkinson Detection App                                                                                                                    
 **AI-powered Streamlit prototype** for detecting early signs of Parkinson’s disease from voice biomarkers. Built for education and prototyping.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)  ![XGBoost](https://img.shields.io/badge/XGBoost-Model-green) ![SHAP](https://img.shields.io/badge/SHAP-Explainability-orange) ![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue?logo=mlflow) 
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple?logo=pandas) ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy)![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange) 
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-lightblue?logo=plotly) ![Joblib](https://img.shields.io/badge/Joblib-Model%20Persistence-yellow) ![Python](https://img.shields.io/badge/Python%20venv-Environment-lightgrey) 
+![requirements.txt](https://img.shields.io/badge/requirements.txt-Dependencies-blue) ![Git](https://img.shields.io/badge/Git-Version%20Control-black?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github) 
 ## Project overview
 A Streamlit app that ingests tabular voice biomarkers and predicts Parkinson’s disease status using an XGBoost classifier. The app includes local explainability with SHAP, experiment tracking with MLflow, anonymous session logging for traceability, and modular code for easy extension into real-time audio pipelines.
 
