@@ -134,7 +134,7 @@ streamlit run app.py
 - Record package versions via `pip freeze > requirements.txt` and MLflow run tags.
 
 - Save preprocessing objects (scaler, encoders) alongside model.
-- 
+  
 ## Explainability (SHAP) & outputs
 
 - `src/explain.py` contains SHAP wrapper utilities that support:
