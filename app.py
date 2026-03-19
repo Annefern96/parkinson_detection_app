@@ -151,6 +151,8 @@ elif page == "📊 Predictor":
                     )
                     st.pyplot(fig)
                     plt.close(fig)
+            except Exception as e:
+                st.error(f"Error during prediction: {e}")
 
 elif page == "ℹ️ About":
     st.title("ℹ️ About This App")
