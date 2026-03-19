@@ -141,17 +141,16 @@ elif page == "📊 Predictor":
                 if st.checkbox("🔍 Show Interpretability (SHAP)"):
                     explainer = shap.TreeExplainer(model)
                     shap_values = explainer.shap_values(input_scaled)
-                    plt.title("Mean absolute SHAP value (feature importance)")
-                    shap.plots.bar(shap.Explanation(
-                        values=shap_values,
-                        base_values=explainer.expected_value,
-                        data=input_df,
-                        feature_names=input_df.columns
-                    ))
-                    st.pyplot(bbox_inches='tight')
-
-            except Exception as e:
-                st.error(f"Error during prediction: {e}")
+                
+                    fig, ax = plt.subplots()
+                    shap.summary_plot(
+                        shap_values,
+                        input_df,
+                        plot_type="bar",
+                        show=False
+                    )
+                    st.pyplot(fig)
+                    plt.close(fig)
 
 elif page == "ℹ️ About":
     st.title("ℹ️ About This App")
