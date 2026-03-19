@@ -111,6 +111,8 @@ pip install -r requirements.txt
 ### 4.Run Locally
 ```
 streamlit run app.py
+or
+python -m streamlit run app.py # (if you are running it inside cmd)
 ```
 
 ✅ Your app should now open in your browser!
