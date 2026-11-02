@@ -11,9 +11,6 @@ A Streamlit app that ingests tabular voice biomarkers and predicts Parkinson’s
 
 This repository is intended for research, education, and prototyping. **Not** for clinical use.
 
-<p align="center">
-  <img src="images/Parkinson_detection.png" alt="Parkinson App" width="800">
-</p>
 
 ## Key features
 
