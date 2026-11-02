@@ -68,7 +68,7 @@ This repository is intended for research, education, and prototyping. **Not** fo
 
 - `PPE`
 
-- `status` (The target Variable: 0 = healthy, 1 = Parkinson’s)
+- `status` (The target Variable: 0 = healthy, 1 = Parkinson patient)
 
 **Validation**: the app performs schema checks on upload and reports missing/extra columns. For robust ingestion, use the src/data.py helper which includes type coercion and NaN handling.
 
