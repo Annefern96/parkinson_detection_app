@@ -10,8 +10,7 @@
 A Streamlit app that ingests tabular voice biomarkers and predicts Parkinson’s disease status using an XGBoost classifier. The app includes local explainability with SHAP, experiment tracking with MLflow, anonymous session logging for traceability, and modular code for easy extension into real-time audio pipelines.
 
 This repository is intended for research, education, and prototyping. **Not** for clinical use.
-images/Parkinson_detection.png
-
+![Parkinson Detection App](images/Parkinson_detection.png)
 ## Key features
 
 - Upload `.csv` files containing voice biomarker features.
